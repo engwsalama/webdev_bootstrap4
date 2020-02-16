@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Grid and Layout</title>
+    <!-- https://getbootstrap.com/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <link href="css/grids.css" rel="stylesheet" />
+</head>
+<!-- 
+    1- Create a div.row
+    2- create three divs with class "col" within class row, each div has one , two and three contents
+    3- notice that the cols are stretch and cover the row , so the bgc color of row did not appear , this refer to flexbox property 
+    4- we can add upt to 12 cols within the row
+    5- if you want to make the col take the 1/2 of the sapce , you can use class="col-6"
+    6- note that we lost the skyblue color , becuase the skyblue color for class="co", not for class="col-6"
+    7- you can drill down for others with class="col-2"
+    8- if increase the col to col-3 , there is no room ,will wrapped to next line
+    -->
+<body>
+    <div class="container"> 
+        <div class="row">
+            <div class="col-6">One</div>
+            <div class="col-2">Two</div>
+            <div class="col-2">Three</div>
+            <div class="col-2">Four</div>
+        </div> 
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

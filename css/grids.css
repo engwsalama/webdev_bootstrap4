@@ -1,0 +1,14 @@
+.container{
+
+}
+.row{
+ background-color: gold;
+ 
+}
+
+.col{
+    background-color:skyblue;       
+}
+.box {
+    border: 2px solid black;
+}
