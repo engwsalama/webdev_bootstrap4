@@ -1,0 +1,18 @@
+.fa-arrow-circle-up{
+    font-size: 3rem;
+    color:skyblue;
+    border:2px solid #333;
+    border-radius: 50%;
+    padding:0.5rem;
+    transform:rotate(0deg);
+    transition: transform 0.5s linear;
+}
+
+.fa-arrow-circle-up:hover{
+    color: coral;
+    transform:rotate(90deg);
+}
+.fa-amazon{
+    color: gold;
+    font-size: 2rem;
+}

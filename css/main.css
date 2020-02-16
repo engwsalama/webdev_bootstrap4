@@ -1,0 +1,23 @@
+.container{
+    background-color: sandybrown;
+    
+}
+p{
+    background-color: lightblue;
+}
+
+/* .fa-arrow-circle-up{
+    font-size: 3rem;
+    border:1px solid #333;
+    border-radius: 50%;
+    padding:0.5rem;
+}
+
+.fa-arrow-circle-up:hover{
+    color: coral;
+    transform:rotate(180deg);
+}
+.fa-amazon{
+    color: gold;
+    font-size: 2rem;
+} */
